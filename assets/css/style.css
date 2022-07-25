@@ -379,10 +379,7 @@ article { padding: 125px 0 30px 20%;}
 
 .client { margin-right: 10%;}
 
-.manager { 
-  padding: 0 10%;
-  display: flex;
-}
+.manager { display: flex;}
 
 .manager-img img {
   width: 80%;
