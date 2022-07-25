@@ -208,7 +208,7 @@ nav {
 .service:nth-child(2) { margin: 0 5%;}
 
 .service figure { 
-  width: 20%;
+  width: 30%;
   padding-bottom: 30px;
 }
 
@@ -290,7 +290,7 @@ nav {
 }
 
 .learn-btn { 
-  width: 20%;
+  width: 25%;
   padding:15px 2%;
   background-color: #424242;
   color: #fff;
@@ -425,7 +425,7 @@ article { padding: 125px 0 30px 20%;}
   footer styling starts here
 =================================*/ 
 footer {
-  padding: 100px 0;
+  padding: 100px 0 20px 0;
   background-color: #424242;
 }
 
@@ -487,6 +487,13 @@ footer {
 
 .link { margin-bottom: 10px;}
 
+.copyright {
+  padding: 10px 0;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+}
+
  /*=================================
   footer styling ends here
 =================================*/ 
@@ -495,6 +502,54 @@ footer {
 /*media query for 995px starts here*/
 @media only screen and (max-width: 995px) {
 
+  .logo {padding-right: 30%;}
 
+  .service figure { width: 40%;}
+
+  .learn-btn { width: 40%;}
+  
+  .page { margin-right: 20%;}
+
+}  
+
+/*media query for 768px starts here*/
+@media only screen and (max-width: 768px) {
+  .logo {padding-right: 20%;}
+
+  .service figure { width: 50%;}
+
+  .learn-btn { width: 50%;}
+  
+  .builder { padding-right: 5%;}
+
+  .page { margin-right: 10%;}
+
+}  
+ 
+
+/*media query for 540px starts here*/
+@media only screen and (max-width: 540px) {
+
+  .logo {padding-right: 50%;}
+  
+  .navigation { display: none;}
+
+  .menu { display: inline-block;}
+
+  .services { flex-direction: column;}
+  
+  .service figure { 
+    padding-bottom: 10px;
+    margin: 0 20%;
+  }
+
+  .service { 
+    padding: 10px 5%;
+    border: 1px solid #000;
+  }
+
+  .service:nth-child(2) { margin:20px 0;}
+  
+  .flex { flex-direction: column;}
 
 }  
