@@ -434,7 +434,7 @@ footer {
 }
 
 .builder {
-  padding-right: 20%;
+  padding-right: 40%;
   display: flex;
   flex-direction: column;
 }
@@ -468,7 +468,7 @@ footer {
 
 .page {
   width: 30%;
-  margin-right: 50%;
+  margin-right: 40%;
 }
 
 .links { 
@@ -483,12 +483,12 @@ footer {
 
 .link::first-letter,.link a { text-transform: capitalize;}
 
-.link:hover { color: #ffff00;}
+.link a:hover { color: #ffff00;}
 
 .link { margin-bottom: 10px;}
 
 .copyright {
-  padding: 10px 0;
+  padding-top: 40px;
   color: #fff;
   font-size: 12px;
   text-align: center;
@@ -508,7 +508,7 @@ footer {
 
   .learn-btn { width: 40%;}
   
-  .page { margin-right: 20%;}
+  .page { margin-right: 15%;}
 
 }  
 
@@ -520,7 +520,7 @@ footer {
 
   .learn-btn { width: 50%;}
   
-  .builder { padding-right: 5%;}
+  .builder { padding-right: 15%;}
 
   .page { margin-right: 10%;}
 
@@ -548,8 +548,39 @@ footer {
     border: 1px solid #000;
   }
 
+  .contact-links { 
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .builder { 
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .icons { justify-content: center;}
+
   .service:nth-child(2) { margin:20px 0;}
   
   .flex { flex-direction: column;}
 
+  .corporate ,.company {
+    width: 80%;
+    padding-bottom:20px ;
+  }
+  .info-image { 
+    width: 90%;
+    position: relative;
+  }
+
+  article { padding: 20px 0;}
+
+  .cards { flex-direction: column;}
+
+  .card { 
+    padding: 20px 10% ;
+    border: 1px solid ;
+  }
+
+  .card:nth-child(2) {  margin:20px  0;}
 }  
