@@ -595,6 +595,7 @@ footer {
 
   .builder { 
     text-align: center;
+    padding-right: 0;
     margin-bottom: 40px;
   }
 
