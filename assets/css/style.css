@@ -284,7 +284,8 @@ nav {
   padding-bottom: 50px;
   color: #fff;
   font-size: 32px;
-  font-weight: 700
+  font-weight: 600;
+  text-transform:uppercase;
 }
 
 .company-description {
