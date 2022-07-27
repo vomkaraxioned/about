@@ -248,7 +248,7 @@ nav {
   background-color: #cddc39;
 }
 
-.black ,.yellow{ padding:100px 0 120px 10%;}
+.black ,.yellow{ padding:100px 0 120px 11.5%;}
 
 .company,.corporate { 
   width: 45%;
@@ -338,10 +338,9 @@ article { padding: 125px 0 30px 0;}
 .cards { 
   padding-bottom: 125px;
   display: flex;
-  justify-content: center;
 }
 
-.card { flex-basis: 30%;}
+.card { width: 31%;}
 
 .card:nth-child(2){ margin: 0 3%;}
 
@@ -615,7 +614,8 @@ footer {
 
   .cards { flex-direction: column;}
 
-  .card { 
+  .card {
+    width: 80%;
     padding: 20px 10% ;
     border: 1px solid ;
   }
