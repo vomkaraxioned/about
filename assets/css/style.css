@@ -414,7 +414,7 @@ article { padding: 125px 0 30px 0;}
 }
 
 .control {
-  width: .9%;
+  width: 2%;
   border: none;
   border-radius: 50%;
   background-color: #656565;
@@ -531,6 +531,7 @@ footer {
   text-align: center;
 }
 
+.icon:hover::before { color: #cddc39;}
  /*=================================
   footer styling ends here
 =================================*/ 
@@ -561,6 +562,7 @@ footer {
 
   .page { margin-right: 10%;}
 
+  .control { width: 4%;}
 }  
  
 
@@ -630,4 +632,6 @@ footer {
   .manager-img {
     width: 40%;
   }
+
+  .control { width: 3%;}
 }  
