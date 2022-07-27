@@ -405,6 +405,7 @@ article { padding: 125px 0 30px 0;}
   display: inline-block;
   font-size: 10px;
   opacity: .8;
+  text-transform: capitalize;
 }
 
 .controls { 
@@ -414,7 +415,7 @@ article { padding: 125px 0 30px 0;}
 }
 
 .control {
-  width: 2%;
+  padding: .1px 1%;
   border: none;
   border-radius: 50%;
   background-color: #656565;
@@ -562,7 +563,7 @@ footer {
 
   .page { margin-right: 10%;}
 
-  .control { width: 4%;}
+  .control { width: 5%;}
 }  
  
 
@@ -633,5 +634,5 @@ footer {
     width: 40%;
   }
 
-  .control { width: 3%;}
+  .control { width: 5%;}
 }  
