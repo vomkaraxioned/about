@@ -105,6 +105,8 @@ li {
 }
 
 p { line-height: 1.4;}
+
+.block-wrapper { width: 67%;}
 /*=================================
   Header styling starts here
 =================================*/
