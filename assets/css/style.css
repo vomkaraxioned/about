@@ -1,3 +1,5 @@
+
+
 @charset "utf-8";
 /* ==========================================================================
    1. CSS Reset Code
@@ -83,7 +85,8 @@ sub { bottom: -.25em; }
 
 /*for all*/
 body {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-family: sans-serif;
 }
 
@@ -116,6 +119,8 @@ p { line-height: 1.4;}
 header { background-color: #3b3b3b;}
 
 nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -123,6 +128,8 @@ nav {
 
 .navigation {
   width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 .nav-item {
@@ -208,6 +215,8 @@ nav {
 
 .services { 
   padding:10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -236,7 +245,7 @@ nav {
 /* service end here */
 
 /* company start here */
-.flex { display: flex;}
+.flex { display: -webkit-box; display: -ms-flexbox; display: flex;}
 
 .black { 
   position: relative;
@@ -253,12 +262,18 @@ nav {
 .company,.corporate { 
   width: 45%;
   padding: 0 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .info-image {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 40%;
   position: absolute;
   top: 0;
@@ -338,6 +353,8 @@ article { padding: 125px 0 30px 0;}
 
 .cards { 
   padding-bottom: 125px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -368,7 +385,7 @@ article { padding: 125px 0 30px 0;}
 .client-title {
   padding-bottom: 35px;
   font-size: 32px;
-  font-size: 400;
+  font-weight: 400;
   text-transform: uppercase;
 }
 
@@ -381,13 +398,19 @@ article { padding: 125px 0 30px 0;}
 
 .clients { 
   padding-bottom: 150px ;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .client { margin-right: 10%;}
 
 .manager { 
+  display: -webkit-box; 
+  display: -ms-flexbox; 
   display: flex;
 }
 
@@ -442,13 +465,20 @@ footer {
 }
 
 .contact-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 .builder {
   padding-right: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .builder-title {
@@ -458,7 +488,7 @@ footer {
   text-transform: uppercase;
 }
 
-.icons { display: flex;}
+.icons { display: -webkit-box; display: -ms-flexbox; display: flex;}
 
 .icon {
   margin-right: 5%;
@@ -504,7 +534,7 @@ footer {
 }
 
 
-.pages { display: flex;}
+.pages { display: -webkit-box; display: -ms-flexbox; display: flex;}
 
 .page {
   width: 30%;
@@ -512,8 +542,13 @@ footer {
 }
 
 .links { 
+  display: -webkit-box; 
+  display: -ms-flexbox; 
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .links .head ,.link a {
@@ -578,7 +613,7 @@ footer {
 
   .menu { display: inline-block;}
 
-  .services { flex-direction: column;}
+  .services { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column;}
   
   .service figure { 
     padding-bottom: 10px;
@@ -591,8 +626,13 @@ footer {
   }
 
   .contact-links { 
-    flex-direction: column;
-    justify-content: center;
+    -webkit-box-orient: vertical; 
+    -webkit-box-direction: normal; 
+        -ms-flex-direction: column; 
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 
   .builder { 
@@ -601,11 +641,11 @@ footer {
     margin-bottom: 40px;
   }
 
-  .icons { justify-content: center;}
+  .icons { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center;}
 
   .service:nth-child(2) { margin:20px 0;}
   
-  .flex { flex-direction: column;}
+  .flex { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column;}
 
   .corporate ,.company {
     width: 80%;
@@ -618,7 +658,7 @@ footer {
 
   article { padding: 20px 0;}
 
-  .cards { flex-direction: column;}
+  .cards { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column;}
 
   .card {
     width: 80%;
@@ -629,8 +669,13 @@ footer {
   .card:nth-child(2) {  margin:20px  0;}
 
   .manager{  
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;  
+    -webkit-box-direction: normal;  
+        -ms-flex-direction: column;  
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 
   .manager-img {
